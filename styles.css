@@ -43,6 +43,8 @@ body{
     background: #FF5400;
     color: #FFF;
     text-align: center;
+    border: 0;
+    font-weight: 700;
 }
 form {
     display: flex;
@@ -50,3 +52,21 @@ form {
     gap: 24px; 
 }
 
+/* Popular Tours styles*/
+.popular-tours{
+    display: flex;
+    gap: 55px;
+    margin-top: 100px;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+.tour-heading{
+    font-size: 40px; 
+}
+.tours-img {
+    width: 50%;
+    height: 550px; 
+}
+.grey-text{
+    color: rgba(19, 19, 24, 0.70); 
+}
