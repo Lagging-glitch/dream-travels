@@ -120,3 +120,32 @@ form {
     display: grid;
     justify-content: center;
 }
+/* Newsletter*/
+.newsletter{
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+}
+.newsletter-text{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.small-header{
+    font-size: 24px;
+    color: #131318; 
+}
+/*
+.badge-background{
+    position: relative;
+}
+
+badge{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg); 
+    border-radius: 16px;
+    background: #FF5400;
+}
+*/
