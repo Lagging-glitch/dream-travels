@@ -90,3 +90,33 @@ form {
 .img-5 { grid-area: 2 / 4 / 3 / 5; }
 .img-6 { grid-area: 3 / 1 / 4 / 2; }
 .img-7 { grid-area: 3 / 2 / 4 / 5; }
+/*why choose us*/
+.why-choose-us{
+    text-align: center;
+}
+.hotel, .service, .price{
+    width: 573px;
+    height: 284px; 
+    border-radius: 16px;
+}
+.hotel {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.service {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin-left: 24px;
+}
+.price{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-top: 24px;
+}
+.card-row{
+    display: flex;
+}
+.card-container{
+    display: grid;
+    justify-content: center;
+}
