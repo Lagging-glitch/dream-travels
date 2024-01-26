@@ -1,0 +1,52 @@
+/* Common styles*/
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.icon{
+    display: flex;
+    gap: 15px;
+}
+.black{
+    color: #131318;
+    font-size: 36px; 
+    font-weight: 800
+}
+.orange{
+    color: #FF5400;
+    font-size: 36px; 
+    font-weight: 800
+}
+
+/*Banner Styles*/
+
+.banner{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('Images/Group 13 (1) (1).png'), no-repeat;
+    width: 1170px;
+    height: 300px;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 140px;
+}
+.banner-heading {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-text {
+    color: #FFF;  
+} 
+.btn {
+    width: 174px;
+    height: 52px; 
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+}
+form {
+    display: flex;
+    justify-content: center;
+    gap: 24px; 
+}
+
